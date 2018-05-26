@@ -10,10 +10,12 @@
 	<form method="post" action="aksi_login.php">
 	<input class="masuk" type="text" autocomplete="off" placeholder="Username or Email Address" name="username" autofocus required><br>
 	<input class="masuk" type="password" autocomplete="off" placeholder="Password" name="password" autofocus required><br>
-	<input class="tombol" type="submit" value="Sign In">
+	<div class="button">
+		<input type="submit" value="Sign In">
+	</div>
 	<div class="tengah">
 		<pre>
-			<p><a>Don't have an account ?                    </a><a href=""><b>Sign Up</b></a></p>
+			<p><a>Don't have an account ?                    </a><a href="signup.php"><b>Sign Up</b></a></p>
 		</pre>
 	</div>
 	</form>
@@ -71,4 +73,17 @@ input{
   margin: 20px;
   text-align: center;
   font-size: 15px;
+}
+
+div.button input[type="submit"]{
+	background-color: #000000;
+	width: 300px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	border: 0px solid #ffffff;
+	margin: 15px auto 0;
+	border-radius: 5px;
+	min-height: 40px;
+	overflow: hidden;
 }
