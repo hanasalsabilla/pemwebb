@@ -56,7 +56,7 @@ h1{
 }
 
 body{
-	background-image: url("background.jpg");
+	background-image: url("back.png");
 	text-align: center;
 }
 
